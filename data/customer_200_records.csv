@@ -1,0 +1,201 @@
+customer_id,first_name,last_name,email,phone,city,state,country,signup_date,customer_status
+CUST0001,Krishna,Agarwal,customer001@example.com,9000000001,Indore,Madhya Pradesh,India,2025-11-20,inactive
+CUST0002,Akash,Verma,customer002@example.com,9000000002,Mysuru,Karnataka,India,2023-12-23,active
+CUST0003,Pranav,Desai,customer003@example.com,9000000003,Delhi,Delhi,India,2025-12-21,active
+CUST0004,Ananya,Singh,customer004@example.com,9000000004,Bengaluru,Karnataka,India,2023-01-07,prospect
+CUST0005,Ritika,Das,customer005@example.com,9000000005,Lucknow,Uttar Pradesh,India,2025-04-19,active
+CUST0006,Pranav,Joshi,customer006@example.com,9000000006,Mysuru,Karnataka,India,2023-09-04,inactive
+CUST0007,Harsha,Das,customer007@example.com,9000000007,Bengaluru,Karnataka,India,2025-10-22,prospect
+CUST0008,Rahul,Menon,customer008@example.com,9000000008,Hyderabad,Telangana,India,2025-08-30,active
+CUST0009,Akash,Desai,customer009@example.com,9000000009,Jaipur,Rajasthan,India,2023-10-30,active
+CUST0010,Kiran,Shetty,customer010@example.com,9000000010,Gurugram,Haryana,India,2026-01-09,active
+CUST0011,Diya,Shetty,customer011@example.com,9000000011,Vijayawada,Andhra Pradesh,India,2025-07-03,inactive
+CUST0012,Arjun,Verma,customer012@example.com,9000000012,Visakhapatnam,Andhra Pradesh,India,2023-09-07,active
+CUST0013,Neha,Kulkarni,customer013@example.com,9000000013,Jaipur,Rajasthan,India,2026-07-11,active
+CUST0014,Tanvi,Das,customer014@example.com,9000000014,Surat,Gujarat,India,2026-05-24,active
+CUST0015,Arjun,Mehta,customer015@example.com,9000000015,Pune,Maharashtra,India,2024-12-16,active
+CUST0016,Akash,Patel,customer016@example.com,9000000016,Vijayawada,Andhra Pradesh,India,2023-05-14,active
+CUST0017,Harsha,Desai,customer017@example.com,9000000017,Noida,Uttar Pradesh,India,2024-01-14,active
+CUST0018,Vivek,Nair,customer018@example.com,9000000018,Jaipur,Rajasthan,India,2024-10-25,inactive
+CUST0019,Arjun,Rao,customer019@example.com,9000000019,Gurugram,Haryana,India,2026-05-08,inactive
+CUST0020,Shreya,Mehta,customer020@example.com,9000000020,Mumbai,Maharashtra,India,2025-08-27,active
+CUST0021,Abhinav,Pillai,customer021@example.com,9000000021,Pune,Maharashtra,India,2025-03-18,inactive
+CUST0022,Aditya,Menon,customer022@example.com,9000000022,Ahmedabad,Gujarat,India,2025-05-06,active
+CUST0023,Ritika,Agarwal,customer023@example.com,9000000023,Vijayawada,Andhra Pradesh,India,2025-04-07,prospect
+CUST0024,Siddharth,Mehta,customer024@example.com,9000000024,Mumbai,Maharashtra,India,2023-02-22,active
+CUST0025,Priya,Das,customer025@example.com,9000000025,Kolkata,West Bengal,India,2023-01-04,active
+CUST0026,Harsha,Reddy,customer026@example.com,9000000026,Mumbai,Maharashtra,India,2025-12-15,active
+CUST0027,Pranav,Reddy,customer027@example.com,9000000027,Surat,Gujarat,India,2026-03-22,active
+CUST0028,Akash,Singh,customer028@example.com,9000000028,Coimbatore,Tamil Nadu,India,2024-09-10,active
+CUST0029,Ritika,Patel,customer029@example.com,9000000029,Mumbai,Maharashtra,India,2023-08-02,active
+CUST0030,Kiran,Choudhary,customer030@example.com,9000000030,Chennai,Tamil Nadu,India,2026-02-12,prospect
+CUST0031,Abhinav,Patel,customer031@example.com,9000000031,Surat,Gujarat,India,2023-02-21,active
+CUST0032,Anika,Choudhary,customer032@example.com,9000000032,Kolkata,West Bengal,India,2024-03-01,prospect
+CUST0033,Ishaan,Chowdhury,customer033@example.com,9000000033,Indore,Madhya Pradesh,India,2024-02-02,inactive
+CUST0034,Ishaan,Menon,customer034@example.com,9000000034,Chennai,Tamil Nadu,India,2023-04-11,active
+CUST0035,Krishna,Singh,customer035@example.com,9000000035,Chennai,Tamil Nadu,India,2024-06-22,inactive
+CUST0036,Isha,Kapoor,customer036@example.com,9000000036,Kolkata,West Bengal,India,2025-06-25,prospect
+CUST0037,Anika,Kapoor,customer037@example.com,9000000037,Delhi,Delhi,India,2024-09-27,inactive
+CUST0038,Vivek,Naidu,customer038@example.com,9000000038,Gurugram,Haryana,India,2024-05-30,inactive
+CUST0039,Krishna,Chowdhury,customer039@example.com,9000000039,Visakhapatnam,Andhra Pradesh,India,2026-04-02,active
+CUST0040,Manish,Kapoor,customer040@example.com,9000000040,Surat,Gujarat,India,2024-12-09,inactive
+CUST0041,Kiran,Mishra,customer041@example.com,9000000041,Noida,Uttar Pradesh,India,2025-01-18,prospect
+CUST0042,Dev,Chowdhury,customer042@example.com,9000000042,Noida,Uttar Pradesh,India,2026-04-23,prospect
+CUST0043,Neha,Pillai,customer043@example.com,9000000043,Noida,Uttar Pradesh,India,2023-03-18,active
+CUST0044,Manish,Kumar,customer044@example.com,9000000044,Hyderabad,Telangana,India,2026-07-02,active
+CUST0045,Arjun,Sharma,customer045@example.com,9000000045,Chennai,Tamil Nadu,India,2024-08-10,active
+CUST0046,Nandini,Mishra,customer046@example.com,9000000046,Noida,Uttar Pradesh,India,2024-04-17,active
+CUST0047,Harsha,Iyer,customer047@example.com,9000000047,Mumbai,Maharashtra,India,2024-12-14,active
+CUST0048,Varun,Joshi,customer048@example.com,9000000048,Vijayawada,Andhra Pradesh,India,2023-01-15,active
+CUST0049,Isha,Patel,customer049@example.com,9000000049,Indore,Madhya Pradesh,India,2026-03-28,inactive
+CUST0050,Shreya,Joshi,customer050@example.com,9000000050,Bengaluru,Karnataka,India,2023-07-26,inactive
+CUST0051,Ananya,Chowdhury,customer051@example.com,9000000051,Nagpur,Maharashtra,India,2024-02-15,prospect
+CUST0052,Shreya,Shetty,customer052@example.com,9000000052,Bengaluru,Karnataka,India,2025-02-27,active
+CUST0053,Lakshmi,Das,customer053@example.com,9000000053,Pune,Maharashtra,India,2025-05-01,inactive
+CUST0054,Rohan,Iyer,customer054@example.com,9000000054,Nagpur,Maharashtra,India,2023-11-10,active
+CUST0055,Krishna,Kulkarni,customer055@example.com,9000000055,Kochi,Kerala,India,2023-05-14,active
+CUST0056,Vivek,Joshi,customer056@example.com,9000000056,Coimbatore,Tamil Nadu,India,2024-06-24,active
+CUST0057,Saanvi,Kulkarni,customer057@example.com,9000000057,Mumbai,Maharashtra,India,2025-11-21,active
+CUST0058,Siddharth,Shetty,customer058@example.com,9000000058,Gurugram,Haryana,India,2023-10-24,prospect
+CUST0059,Shreya,Agarwal,customer059@example.com,9000000059,Indore,Madhya Pradesh,India,2024-05-17,inactive
+CUST0060,Aanya,Patel,customer060@example.com,9000000060,Chennai,Tamil Nadu,India,2025-02-22,prospect
+CUST0061,Manish,Singh,customer061@example.com,9000000061,Gurugram,Haryana,India,2024-08-20,prospect
+CUST0062,Ritika,Das,customer062@example.com,9000000062,Ahmedabad,Gujarat,India,2025-03-07,active
+CUST0063,Krishna,Patel,customer063@example.com,9000000063,Kolkata,West Bengal,India,2023-11-25,active
+CUST0064,Neha,Mehta,customer064@example.com,9000000064,Kolkata,West Bengal,India,2023-06-15,inactive
+CUST0065,Tanvi,Rao,customer065@example.com,9000000065,Bengaluru,Karnataka,India,2025-12-14,prospect
+CUST0066,Saanvi,Reddy,customer066@example.com,9000000066,Surat,Gujarat,India,2023-02-28,inactive
+CUST0067,Krishna,Kumar,customer067@example.com,9000000067,Vijayawada,Andhra Pradesh,India,2025-09-06,active
+CUST0068,Aanya,Iyer,customer068@example.com,9000000068,Ahmedabad,Gujarat,India,2026-01-12,active
+CUST0069,Neha,Shetty,customer069@example.com,9000000069,Kochi,Kerala,India,2024-01-18,active
+CUST0070,Varun,Nair,customer070@example.com,9000000070,Nagpur,Maharashtra,India,2025-01-25,inactive
+CUST0071,Sneha,Sharma,customer071@example.com,9000000071,Mysuru,Karnataka,India,2025-05-17,active
+CUST0072,Harsha,Rao,customer072@example.com,9000000072,Indore,Madhya Pradesh,India,2025-12-27,active
+CUST0073,Dev,Choudhary,customer073@example.com,9000000073,Mysuru,Karnataka,India,2024-09-02,active
+CUST0074,Ananya,Chowdhury,customer074@example.com,9000000074,Jaipur,Rajasthan,India,2025-07-02,active
+CUST0075,Priya,Kulkarni,customer075@example.com,9000000075,Delhi,Delhi,India,2025-03-18,active
+CUST0076,Priya,Kulkarni,customer076@example.com,9000000076,Kochi,Kerala,India,2024-08-04,inactive
+CUST0077,Rohan,Sharma,customer077@example.com,9000000077,Vijayawada,Andhra Pradesh,India,2025-05-11,active
+CUST0078,Siddharth,Verma,customer078@example.com,9000000078,Surat,Gujarat,India,2023-05-04,active
+CUST0079,Rohan,Iyer,customer079@example.com,9000000079,Vijayawada,Andhra Pradesh,India,2024-06-25,active
+CUST0080,Priya,Chowdhury,customer080@example.com,9000000080,Nagpur,Maharashtra,India,2026-03-01,inactive
+CUST0081,Akash,Iyer,customer081@example.com,9000000081,Lucknow,Uttar Pradesh,India,2024-04-20,active
+CUST0082,Krishna,Das,customer082@example.com,9000000082,Lucknow,Uttar Pradesh,India,2025-07-19,active
+CUST0083,Keerthi,Mehta,customer083@example.com,9000000083,Delhi,Delhi,India,2023-05-07,active
+CUST0084,Nandini,Bose,customer084@example.com,9000000084,Noida,Uttar Pradesh,India,2023-07-24,active
+CUST0085,Kavya,Kulkarni,customer085@example.com,9000000085,Lucknow,Uttar Pradesh,India,2024-02-18,inactive
+CUST0086,Maya,Desai,customer086@example.com,9000000086,Lucknow,Uttar Pradesh,India,2025-04-09,active
+CUST0087,Vikram,Das,customer087@example.com,9000000087,Pune,Maharashtra,India,2023-12-03,prospect
+CUST0088,Ananya,Chowdhury,customer088@example.com,9000000088,Indore,Madhya Pradesh,India,2023-01-15,active
+CUST0089,Varun,Naidu,customer089@example.com,9000000089,Pune,Maharashtra,India,2024-03-22,active
+CUST0090,Arjun,Kapoor,customer090@example.com,9000000090,Chennai,Tamil Nadu,India,2026-04-12,active
+CUST0091,Lakshmi,Choudhary,customer091@example.com,9000000091,Noida,Uttar Pradesh,India,2026-07-16,active
+CUST0092,Priya,Nair,customer092@example.com,9000000092,Kochi,Kerala,India,2024-10-07,active
+CUST0093,Isha,Iyer,customer093@example.com,9000000093,Surat,Gujarat,India,2026-07-04,prospect
+CUST0094,Neha,Mehta,customer094@example.com,9000000094,Kolkata,West Bengal,India,2024-08-22,active
+CUST0095,Varun,Agarwal,customer095@example.com,9000000095,Surat,Gujarat,India,2026-03-13,active
+CUST0096,Aditya,Patel,customer096@example.com,9000000096,Surat,Gujarat,India,2025-06-02,active
+CUST0097,Shreya,Verma,customer097@example.com,9000000097,Chennai,Tamil Nadu,India,2023-09-16,active
+CUST0098,Siddharth,Kulkarni,customer098@example.com,9000000098,Noida,Uttar Pradesh,India,2023-02-28,prospect
+CUST0099,Rahul,Chowdhury,customer099@example.com,9000000099,Kochi,Kerala,India,2025-05-31,prospect
+CUST0100,Shreya,Mishra,customer100@example.com,9000000100,Noida,Uttar Pradesh,India,2023-12-19,prospect
+CUST0101,Meera,Menon,customer101@example.com,9000000101,Nagpur,Maharashtra,India,2023-03-27,active
+CUST0102,Nikhil,Gupta,customer102@example.com,9000000102,Surat,Gujarat,India,2025-05-13,inactive
+CUST0103,Siddharth,Sharma,customer103@example.com,9000000103,Ahmedabad,Gujarat,India,2025-09-08,active
+CUST0104,Isha,Patel,customer104@example.com,9000000104,Kolkata,West Bengal,India,2023-07-24,inactive
+CUST0105,Siddharth,Choudhary,customer105@example.com,9000000105,Indore,Madhya Pradesh,India,2023-06-15,active
+CUST0106,Maya,Reddy,customer106@example.com,9000000106,Visakhapatnam,Andhra Pradesh,India,2023-05-17,prospect
+CUST0107,Saanvi,Kulkarni,customer107@example.com,9000000107,Ahmedabad,Gujarat,India,2023-06-11,active
+CUST0108,Keerthi,Bose,customer108@example.com,9000000108,Jaipur,Rajasthan,India,2025-12-31,active
+CUST0109,Dev,Kulkarni,customer109@example.com,9000000109,Visakhapatnam,Andhra Pradesh,India,2024-06-14,active
+CUST0110,Nandini,Kapoor,customer110@example.com,9000000110,Coimbatore,Tamil Nadu,India,2024-04-10,prospect
+CUST0111,Sneha,Iyer,customer111@example.com,9000000111,Ahmedabad,Gujarat,India,2023-04-28,inactive
+CUST0112,Akash,Desai,customer112@example.com,9000000112,Vijayawada,Andhra Pradesh,India,2024-06-26,prospect
+CUST0113,Meera,Pillai,customer113@example.com,9000000113,Mysuru,Karnataka,India,2024-09-18,active
+CUST0114,Akash,Chowdhury,customer114@example.com,9000000114,Mysuru,Karnataka,India,2024-07-22,active
+CUST0115,Ishaan,Reddy,customer115@example.com,9000000115,Kochi,Kerala,India,2025-07-20,inactive
+CUST0116,Nandini,Pillai,customer116@example.com,9000000116,Noida,Uttar Pradesh,India,2024-12-15,active
+CUST0117,Varun,Mehta,customer117@example.com,9000000117,Delhi,Delhi,India,2026-02-01,active
+CUST0118,Pranav,Agarwal,customer118@example.com,9000000118,Vijayawada,Andhra Pradesh,India,2024-07-19,inactive
+CUST0119,Shreya,Choudhary,customer119@example.com,9000000119,Kochi,Kerala,India,2025-11-02,inactive
+CUST0120,Harsha,Menon,customer120@example.com,9000000120,Hyderabad,Telangana,India,2025-02-04,active
+CUST0121,Keerthi,Agarwal,customer121@example.com,9000000121,Ahmedabad,Gujarat,India,2023-07-17,active
+CUST0122,Sneha,Pillai,customer122@example.com,9000000122,Pune,Maharashtra,India,2024-12-15,inactive
+CUST0123,Tanvi,Rao,customer123@example.com,9000000123,Surat,Gujarat,India,2026-01-06,prospect
+CUST0124,Kiran,Kapoor,customer124@example.com,9000000124,Kolkata,West Bengal,India,2024-04-19,prospect
+CUST0125,Sneha,Kapoor,customer125@example.com,9000000125,Bengaluru,Karnataka,India,2024-03-20,prospect
+CUST0126,Akash,Verma,customer126@example.com,9000000126,Noida,Uttar Pradesh,India,2023-07-20,active
+CUST0127,Isha,Bose,customer127@example.com,9000000127,Coimbatore,Tamil Nadu,India,2025-10-08,prospect
+CUST0128,Lakshmi,Verma,customer128@example.com,9000000128,Gurugram,Haryana,India,2023-05-07,prospect
+CUST0129,Aarav,Naidu,customer129@example.com,9000000129,Visakhapatnam,Andhra Pradesh,India,2023-11-14,active
+CUST0130,Neha,Reddy,customer130@example.com,9000000130,Gurugram,Haryana,India,2025-03-30,active
+CUST0131,Rahul,Rao,customer131@example.com,9000000131,Pune,Maharashtra,India,2025-12-22,active
+CUST0132,Rahul,Reddy,customer132@example.com,9000000132,Ahmedabad,Gujarat,India,2023-08-28,prospect
+CUST0133,Saanvi,Gupta,customer133@example.com,9000000133,Mumbai,Maharashtra,India,2025-12-03,active
+CUST0134,Harsha,Das,customer134@example.com,9000000134,Mumbai,Maharashtra,India,2025-04-20,active
+CUST0135,Maya,Kapoor,customer135@example.com,9000000135,Bengaluru,Karnataka,India,2026-02-28,prospect
+CUST0136,Nikhil,Kumar,customer136@example.com,9000000136,Pune,Maharashtra,India,2023-04-05,inactive
+CUST0137,Priya,Sharma,customer137@example.com,9000000137,Chennai,Tamil Nadu,India,2023-11-22,prospect
+CUST0138,Vivek,Reddy,customer138@example.com,9000000138,Ahmedabad,Gujarat,India,2023-11-28,active
+CUST0139,Vikram,Bose,customer139@example.com,9000000139,Lucknow,Uttar Pradesh,India,2023-01-12,prospect
+CUST0140,Dev,Mishra,customer140@example.com,9000000140,Indore,Madhya Pradesh,India,2024-04-05,inactive
+CUST0141,Abhinav,Reddy,customer141@example.com,9000000141,Noida,Uttar Pradesh,India,2025-04-27,inactive
+CUST0142,Aditya,Menon,customer142@example.com,9000000142,Coimbatore,Tamil Nadu,India,2025-08-08,inactive
+CUST0143,Ananya,Patel,customer143@example.com,9000000143,Mysuru,Karnataka,India,2024-07-21,active
+CUST0144,Meera,Naidu,customer144@example.com,9000000144,Ahmedabad,Gujarat,India,2024-07-13,active
+CUST0145,Nikhil,Naidu,customer145@example.com,9000000145,Hyderabad,Telangana,India,2025-08-12,active
+CUST0146,Rohan,Verma,customer146@example.com,9000000146,Visakhapatnam,Andhra Pradesh,India,2026-06-15,active
+CUST0147,Pranav,Reddy,customer147@example.com,9000000147,Delhi,Delhi,India,2025-11-05,inactive
+CUST0148,Keerthi,Agarwal,customer148@example.com,9000000148,Hyderabad,Telangana,India,2026-06-21,prospect
+CUST0149,Kavya,Sharma,customer149@example.com,9000000149,Kochi,Kerala,India,2026-07-04,active
+CUST0150,Siddharth,Verma,customer150@example.com,9000000150,Jaipur,Rajasthan,India,2024-08-08,prospect
+CUST0151,Nikhil,Menon,customer151@example.com,9000000151,Lucknow,Uttar Pradesh,India,2025-09-17,inactive
+CUST0152,Kiran,Verma,customer152@example.com,9000000152,Mysuru,Karnataka,India,2024-10-18,active
+CUST0153,Priya,Gupta,customer153@example.com,9000000153,Nagpur,Maharashtra,India,2026-03-13,active
+CUST0154,Rohan,Iyer,customer154@example.com,9000000154,Ahmedabad,Gujarat,India,2026-01-12,prospect
+CUST0155,Dev,Desai,customer155@example.com,9000000155,Mysuru,Karnataka,India,2026-06-24,inactive
+CUST0156,Tanvi,Rao,customer156@example.com,9000000156,Visakhapatnam,Andhra Pradesh,India,2024-05-20,active
+CUST0157,Nandini,Shetty,customer157@example.com,9000000157,Delhi,Delhi,India,2023-06-26,active
+CUST0158,Diya,Chowdhury,customer158@example.com,9000000158,Delhi,Delhi,India,2026-03-12,inactive
+CUST0159,Harsha,Sharma,customer159@example.com,9000000159,Jaipur,Rajasthan,India,2023-10-05,active
+CUST0160,Nikhil,Menon,customer160@example.com,9000000160,Mysuru,Karnataka,India,2025-08-08,prospect
+CUST0161,Rohan,Nair,customer161@example.com,9000000161,Indore,Madhya Pradesh,India,2023-02-08,active
+CUST0162,Arjun,Pillai,customer162@example.com,9000000162,Delhi,Delhi,India,2026-05-04,active
+CUST0163,Aarav,Choudhary,customer163@example.com,9000000163,Surat,Gujarat,India,2025-06-08,active
+CUST0164,Tanvi,Bose,customer164@example.com,9000000164,Lucknow,Uttar Pradesh,India,2023-11-20,active
+CUST0165,Anika,Desai,customer165@example.com,9000000165,Surat,Gujarat,India,2025-06-10,active
+CUST0166,Shreya,Kulkarni,customer166@example.com,9000000166,Mumbai,Maharashtra,India,2023-02-03,active
+CUST0167,Kavya,Gupta,customer167@example.com,9000000167,Bengaluru,Karnataka,India,2023-07-07,active
+CUST0168,Akash,Iyer,customer168@example.com,9000000168,Delhi,Delhi,India,2023-03-22,active
+CUST0169,Maya,Kumar,customer169@example.com,9000000169,Noida,Uttar Pradesh,India,2025-10-30,active
+CUST0170,Krishna,Chowdhury,customer170@example.com,9000000170,Delhi,Delhi,India,2023-02-23,prospect
+CUST0171,Lakshmi,Iyer,customer171@example.com,9000000171,Kolkata,West Bengal,India,2025-11-16,inactive
+CUST0172,Maya,Das,customer172@example.com,9000000172,Bengaluru,Karnataka,India,2024-08-08,active
+CUST0173,Rahul,Kumar,customer173@example.com,9000000173,Bengaluru,Karnataka,India,2026-05-02,active
+CUST0174,Kavya,Patel,customer174@example.com,9000000174,Hyderabad,Telangana,India,2024-10-28,active
+CUST0175,Krishna,Singh,customer175@example.com,9000000175,Noida,Uttar Pradesh,India,2025-02-26,prospect
+CUST0176,Aanya,Kapoor,customer176@example.com,9000000176,Delhi,Delhi,India,2025-08-04,inactive
+CUST0177,Isha,Pillai,customer177@example.com,9000000177,Visakhapatnam,Andhra Pradesh,India,2024-12-10,active
+CUST0178,Maya,Gupta,customer178@example.com,9000000178,Hyderabad,Telangana,India,2024-03-02,active
+CUST0179,Kavya,Nair,customer179@example.com,9000000179,Gurugram,Haryana,India,2023-10-29,active
+CUST0180,Vikram,Kulkarni,customer180@example.com,9000000180,Delhi,Delhi,India,2024-06-24,active
+CUST0181,Ananya,Chowdhury,customer181@example.com,9000000181,Surat,Gujarat,India,2023-08-22,active
+CUST0182,Vivek,Agarwal,customer182@example.com,9000000182,Kolkata,West Bengal,India,2024-07-13,active
+CUST0183,Tanvi,Sharma,customer183@example.com,9000000183,Pune,Maharashtra,India,2025-09-05,prospect
+CUST0184,Ritika,Kumar,customer184@example.com,9000000184,Surat,Gujarat,India,2025-05-09,prospect
+CUST0185,Arjun,Bose,customer185@example.com,9000000185,Lucknow,Uttar Pradesh,India,2024-10-09,prospect
+CUST0186,Vikram,Naidu,customer186@example.com,9000000186,Jaipur,Rajasthan,India,2025-10-15,inactive
+CUST0187,Kavya,Verma,customer187@example.com,9000000187,Indore,Madhya Pradesh,India,2025-12-28,active
+CUST0188,Rahul,Kumar,customer188@example.com,9000000188,Kochi,Kerala,India,2026-02-28,prospect
+CUST0189,Krishna,Shetty,customer189@example.com,9000000189,Nagpur,Maharashtra,India,2025-02-21,active
+CUST0190,Rahul,Desai,customer190@example.com,9000000190,Chennai,Tamil Nadu,India,2024-09-05,inactive
+CUST0191,Nikhil,Bose,customer191@example.com,9000000191,Coimbatore,Tamil Nadu,India,2026-03-22,active
+CUST0192,Diya,Kulkarni,customer192@example.com,9000000192,Delhi,Delhi,India,2025-11-12,active
+CUST0193,Ritika,Chowdhury,customer193@example.com,9000000193,Mysuru,Karnataka,India,2026-04-17,prospect
+CUST0194,Rahul,Naidu,customer194@example.com,9000000194,Jaipur,Rajasthan,India,2023-06-02,prospect
+CUST0195,Sneha,Desai,customer195@example.com,9000000195,Coimbatore,Tamil Nadu,India,2023-03-21,active
+CUST0196,Siddharth,Mishra,customer196@example.com,9000000196,Nagpur,Maharashtra,India,2025-06-30,prospect
+CUST0197,Neha,Reddy,customer197@example.com,9000000197,Indore,Madhya Pradesh,India,2026-04-26,prospect
+CUST0198,Pranav,Nair,customer198@example.com,9000000198,Indore,Madhya Pradesh,India,2026-07-13,active
+CUST0199,Rohan,Kumar,customer199@example.com,9000000199,Jaipur,Rajasthan,India,2023-12-21,active
+CUST0200,Aarav,Shetty,customer200@example.com,9000000200,Lucknow,Uttar Pradesh,India,2025-05-14,prospect
