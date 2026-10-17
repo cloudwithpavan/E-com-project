@@ -16,10 +16,11 @@ on:
 
 permissions:
   contents: read
+  id-token: write
 
 jobs:
   terraform-validate:
-    name: Format and Validate Terraform
+    name: Terraform Format, Validate and Plan
     runs-on: ubuntu-latest
 
     defaults:
@@ -33,11 +34,23 @@ jobs:
       - name: Setup Terraform
         uses: hashicorp/setup-terraform@v3
 
-      - name: Check Terraform formatting
+      - name: Terraform Format Check
         run: terraform fmt -check -recursive
 
-      - name: Initialize Terraform
-        run: terraform init -backend=false -input=false
+      - name: Terraform Initialize
+        run: terraform init -input=false
 
-      - name: Validate Terraform
+      - name: Terraform Validate
         run: terraform validate
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v3
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: github-terraform-sa@my-project-77-511616.iam.gserviceaccount.com
+
+      - name: Setup Google Cloud CLI
+        uses: google-github-actions/setup-gcloud@v3
+
+      - name: Terraform Plan
+        run: terraform plan -input=false -no-color
