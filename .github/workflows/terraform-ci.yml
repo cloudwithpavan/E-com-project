@@ -1,62 +1,21 @@
-name: Terraform CI
-
-on:
-  pull_request:
-    paths:
-      - "terraform/**"
-      - ".github/workflows/terraform-ci.yml"
-  push:
-    branches:
-      - main
-    paths:
-      - "terraform/**"
-      - ".github/workflows/terraform-ci.yml"
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  id-token: write
-
-jobs:
-  terraform-validate:
-    name: Terraform Format, Validate and Plan
-    runs-on: ubuntu-latest
-
-    defaults:
-      run:
-        working-directory: terraform
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v3
-
-      - name: Terraform Format Check
-        run: terraform fmt -check -recursive
-
-      - name: Terraform Initialize
-        run: terraform init -input=false
-
-      - name: Terraform Validate
-        run: terraform validate
-
-      - name: Authenticate to Google Cloud
-        uses: google-github-actions/auth@v3
-        with:
-          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
-          service_account: github-terraform-sa@my-project-77-511616.iam.gserviceaccount.com
-
-      - name: Setup Google Cloud CLI
-        uses: google-github-actions/setup-gcloud@v3
-
-      
-      - name: Terraform Plan
+    - name: Terraform Plan
         env:
           TF_VAR_project_id: ${{ vars.GCP_PROJECT_ID }}
           TF_VAR_region: us-central1
+          TF_VAR_environment: dev
+          TF_VAR_bucket_location: US
+          TF_VAR_raw_bucket_name: ecommerce-analytics-raw-lct2026
+          TF_VAR_processed_data_bucket: ecommerce-analytics-cleaned-lct2026
+          TF_VAR_unprocessed_data_bucket: ecommerce-analytics-unprocessed-lct2026
+          TF_VAR_bigquery_location: US
+          TF_VAR_raw_dataset: ecommerce_stage_dataset
+          TF_VAR_table_name: customer_stg
+          TF_VAR_final_dataset: ecommerce_final_dataset
+          TF_VAR_final_table_name: customer_dim
+          TF_VAR_raw_ds_location: US
+          TF_VAR_final_ds_location: US
+          TF_VAR_composer_environment_name: ecommerce-composer-dev
+          TF_VAR_composer_environment_size: ENVIRONMENT_SIZE_SMALL
           TF_VAR_composer_image_version: ${{ vars.TF_VAR_COMPOSER_IMAGE_VERSION }}
           TF_VAR_composer_service_account: ${{ vars.TF_VAR_COMPOSER_SERVICE_ACCOUNT }}
         run: terraform plan -input=false -no-color
-
